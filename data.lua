@@ -11,12 +11,14 @@ local tbl = {
   ["__key"] = {"8pzkt11dAvYZc6e1fZXrkoAR", 0x53, 0x41, 0x77, "__index"};
   ["AVnq"] = {
       ["hjksdgsdgjnsdgjknsdgjknsdg"] = 0x194;
+      ["hjksdgsdgjnsdgjknsdgjknsd"] = 0xC8;
+      ["hjksdgsdgjnsdgjknsdgjkns"] = 0x190
   };
 };
   
 function data:get_item(type, name)
-    local table = tbl[type];
-    if table == nil then return "failed to find class"; end;
-    return tbl[type][name] or "nothing";
+    local class = tbl[type];
+    if class == nil then return "failed to find class"; end;
+    return class[name] or "nothing";
 end;
 return data;
