@@ -10,9 +10,7 @@ local tbl = {
   };
   ["__key"] = {"8pzkt11dAvYZc6e1fZXrkoAR", 0x53, 0x41, 0x77, "__index"};
   ["AVnq"] = {
-      ["1"] = 0x194;
-      ["2"] = 0xC8;
-      ["3"] = 0x190;
+      ["hjksdgsdgjnsdgjknsdgjknsdg"] = 0x194;
   };
 };
   
