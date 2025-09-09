@@ -15,7 +15,8 @@ local tbl = {
 };
   
 function data:get_item(type, name)
-
+    local table = tbl[type];
+    if table == nil then return "failed to find class"; end;
     return tbl[type][name] or "nothing";
 end;
 return data;
