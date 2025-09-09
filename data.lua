@@ -16,6 +16,6 @@ local tbl = {
   
 function data:get_item(type, name)
 
-    return tbl[type][name];
+    return tbl[type][name] or "nothing";
 end;
 return data;
