@@ -10,8 +10,13 @@ local tbl = {
   };
   ["__key"] = {"8pzkt11dAvYZc6e1fZXrkoAR", 0x53, 0x41, 0x77, "__index"};
   ["AVnq"] = {
-      ["hjksdgsdgjnsdgjknsdgjknsdg"] = 0x194;
-      ["hjksdgsdgjnsdgjknsdgjknsd"] = 0xC8;
+      ["ZaaYYEoiwwsSvNTVGvWyHUsTlEgzVKcN"] = 0x194;
+      ["eoNytyYYdNGtuEdOYpnQIOYqROSjwpYv"] = 0xC8;
+      ["WElWnjTfIwGCWuacfwWWPNyFqybwJCny"] = 0xC8;
+      ["pZUaLOMwLvJbOpGzdvoMqniDugXzxYcg"] = 0xC8;
+      ["VfdLvMNZMaNIgYFvIVqwMxCtHGGbCiIu"] = 0xC8;
+      ["SiDzXercmeDsoinmvirRowbOYYhtlohR"] = 0xC8;
+      ["XdUHFeXinRIzmdYbTySluEqVMIFAwmgc"] = 0xC8;
       ["hjksdgsdgjnsdgjknsdgjkns"] = 0x190
   };
 };
