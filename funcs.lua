@@ -190,7 +190,7 @@ do -- instance
     function funcs:create(instance_name, props, isui)
         local _instance = instance_new(instance_name);
         if not _instance then return; end;
-        if not props.Parent then _instance.Parent = screen_gui; end;
+        if not props.Parent then _instance.Parent = getgenv().screen_gui; end;
         if not props.Name then _instance.Name = funcs:get_random_str(3); end;
         local self = {};
         
@@ -338,7 +338,7 @@ do -- instance
 
     function funcs:create_simple_instance(class_name, props, cache)
         local parent = props.Parent;
-        if not parent then parent = safe_folder; end;
+        if not parent then parent = getgenv().safe_folder; end;
         local instance = instance_new(class_name, parent);
 
         for prop, value in pairs(props) do
