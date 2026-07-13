@@ -105,6 +105,8 @@ local font_new                  = safe_rclone(Font.new);
 --tween
 local tween_info_new            = safe_rclone(TweenInfo.new);
 
+--instance
+local instance_new              = safe_rclone(Instance.new);
 
 --files
 local write_file                = safe_clone(writefile);
